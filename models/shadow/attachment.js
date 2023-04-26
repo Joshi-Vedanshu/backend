@@ -1,5 +1,4 @@
 const { Sequelize, DataTypes, Model } = require("sequelize");
-const Organization = require("./Organization");
 const sequelize = new Sequelize("mysql::memory:");
 
 class Attachments extends Model {}
